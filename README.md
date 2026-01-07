@@ -58,7 +58,7 @@ Diretório de arquivos "privados" (apesar da pasta ser public, é por conta de q
 Ele vai dar conflito, e vai expor isso em seu console, e como resposta para o cliente. Ou seja, como as duas pastas representam o mesmo diretório na web, ao ter dois arquivos com o mesmo nome nas duas pastas, ele não tem como saber qual dos diretórios ele deve dar prioridade, e portanto, vai exibir o erro.
 
 # Créditos
-Sistema criado por mim [Thais (op3n/op3ny)](https://github.com/op3n)
+Sistema criado por mim [Thais (op3n/op3ny)](https://github.com/op3ny)
 
 # Licença
 Este projeto está sob as condições e termos da licença [Apache License 2.0](https://github.com/Hsyst-Essentials/haap/blob/main/LICENSE)
