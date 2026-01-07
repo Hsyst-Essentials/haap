@@ -12,11 +12,11 @@ lugin
 Olá! Bem vindo(a) ao HAAP, antes de começar, apesar de receber o nome de Hsyst Auth, ele é um sistema de login totalmente refeito do zero, o que junto com isso, traz novos recursos e formas de funcionamento, e portanto, trate isso como uma atualização do Hsyst Auth, mas sem ligação nenhuma com a versão anterior.
 
 # Tutorial de Uso
-Quer utilizar, mas não quer ler uma documentação técnica inteira? [Clique Aqui!](https://github.com/Hsyst/haap/blob/main/tutorial-de-uso.md)
+Quer utilizar, mas não quer ler uma documentação técnica inteira? [Clique Aqui!](https://github.com/Hsyst-Essentials/haap/blob/main/tutorial-de-uso.md)
 
 # Documentação Técnica
 ## Introdução
-A documentação técnica é um documento que descreve a função do código em linguagem técnica, e portanto, esta parte é dedicada a pessoas que querem entender como o sistema funciona de forma técnica, então, caso você não entenda de tecnologia, eu recomendo que se mantenha apenas no [Tutorial de Uso](https://github.com/Hsyst/haap/blob/main/tutorial-de-uso.md) que eu tenho certeza que vai te dar o material o suficiente para executar e configurar o sistema, e com uma linguagem amigável.
+A documentação técnica é um documento que descreve a função do código em linguagem técnica, e portanto, esta parte é dedicada a pessoas que querem entender como o sistema funciona de forma técnica, então, caso você não entenda de tecnologia, eu recomendo que se mantenha apenas no [Tutorial de Uso](https://github.com/Hsyst-Essentials/haap/blob/main/tutorial-de-uso.md) que eu tenho certeza que vai te dar o material o suficiente para executar e configurar o sistema, e com uma linguagem amigável.
 
 ## Funcionalidades
 Este código, vem com um sistema de login *interno* e *externo*, apesar de lidarem com os mesmos dados, eles tratam e são usados para finalidades diferentes.
@@ -43,7 +43,7 @@ No servidor externo, ele receberá um callback code, que o backend do serviço e
 Ele poderá adquirir os dados do usuário com o callback code (validade de 30s) que dará acesso ao token externo, que é nada menos que um token que pode ser usado até 3 vezes para buscar os dados do/da usuário(a) e pegar esses dados para usar como quiser, como por exemplo, pra criar um jwt assinado pelo seu servidor externo com os dados.
 
 ## Exemplo de funcionamento
-Junto a este repositório, tem uma pasta teste, que dentro dela tem o arquivo [index.py](https://github.com/Hsyst/haap/blob/main/teste/index.py), e este código é um exemplo de Servidor Externo, então, eu recomendo ler este código para entender como implementar no seu serviço o login com HAAP.
+Junto a este repositório, tem uma pasta teste, que dentro dela tem o arquivo [index.py](https://github.com/Hsyst-Essentials/haap/blob/main/teste/index.py), e este código é um exemplo de Servidor Externo, então, eu recomendo ler este código para entender como implementar no seu serviço o login com HAAP.
 
 ## Funcionamento de páginas
 Caso você queira utilizar o HAAP como um web server, isso é possivel, e basicamente, nós temos duas pastas que representam o "/" da web, que no caso, é o:
@@ -61,4 +61,4 @@ Ele vai dar conflito, e vai expor isso em seu console, e como resposta para o cl
 Sistema criado por mim [Thais (op3n/op3ny)](https://github.com/op3n)
 
 # Licença
-Este projeto está sob as condições e termos da licença [Apache License 2.0](https://github.com/Hsyst/haap/blob/main/LICENSE)
+Este projeto está sob as condições e termos da licença [Apache License 2.0](https://github.com/Hsyst-Essentials/haap/blob/main/LICENSE)
